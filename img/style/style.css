@@ -1,0 +1,205 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background: #f5f7fa;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:40px;
+    padding-bottom:40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    background: #fff;
+    /* display:flex-поставил контент влево */
+    display: flex;
+    max-width:1280px;
+    margin:0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar{
+    background: #1e2939;
+    width:370px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.my-photo{
+    width:370px;
+}
+.content-right{
+    padding-top:110px;
+    padding-bottom: 110px;
+    padding-left:90px;
+    padding-right: 90px;
+}
+.Contacts-container{
+    margin-top:60px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.TechSkills-container{
+    margin-top:60px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.SoftSkills-container{
+    margin-top:60px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.contacts-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#FFB6C1;
+    margin-bottom: 20px;
+}
+.contacts-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#434c5a;
+}
+.contacts-link-type{
+    font-size: 14px;
+    font-weight: 650;
+    line-height: 24px;
+    color:#fff;
+    margin-right: 7px;
+}
+.TechSkills-title{
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 20px;
+color:#FFB6C1;
+}
+.TechSkills-list{
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin-left:12px;
+color:#FF7F50;
+}
+.SoftSkills-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color:#FFB6C1;
+}
+.SoftSkills-list{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left:12px;
+    color:#FF7F50;
+}
+.techskills-text-list{
+    color:#fff;
+}
+.softskills-list-text{
+    color:#fff;
+}
+.name-front-end{
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 15px;
+}
+.name-tkach{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top:24px;
+}
+.info-about-me{
+    margin-bottom: 65px;
+    /* width: 410px; ширину не применяем,чтобы нормально было на смартфоне и в браузере*/
+}
+.about-me-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-bottom:10px;
+}
+.projects-link{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.tehnology-projects{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.donts{
+    color: #bebebe;
+    font-weight:100;
+}
+.projects-item{
+    font-weight: 650;
+    margin-left:17px;
+}
+.projects-container{
+    margin-bottom: 48px;
+}
+
+.stick-black{
+    color:#000;
+}
+.ul-indent{
+margin-top: 14px;
+margin-bottom: 20px;
+}
+.duties-item{
+color: #595959;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.about-me-title-Education{
+    margin-top:55px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-bottom:10px;
+}
+
+.title-managment{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom:14px;
+}
+
+.about-me-subtitle{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top:8px;
+    margin-bottom:9px;
+    }
+
+.company-title{
+        color:#ff781e;
+}
+.about-years{
+    color: #a8a8a8;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    }
